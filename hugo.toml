@@ -1,5 +1,5 @@
-baseurl = "https://www.cc3d.org/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
-title = "CC3D"
+baseurl = "https://yosoy.cc3d.org/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
+title = "CC3D Yo Soy"
 theme = "hugo-universal-theme"
 #themesDir = "/"
 PublishDir = "docs"
@@ -84,25 +84,25 @@ pluralizelisttitles = false
     url        = "/img/group-table.jpg"
     weight     = 3
 
-#[[menu.main]]
-#    name       = "¡Empieza aquí!"
-#   url        = "/admisiones/"
-#    weight     = 1
-#    identifier = "section.portfolio"
-#    parent     = "menu.portfolio"
-#    post       = 1
+[[menu.main]]
+    name       = "¡Empieza aquí!"
+    url        = "/admisiones/"
+    weight     = 1
+    identifier = "section.portfolio"
+    parent     = "menu.portfolio"
+    post       = 1
 
-#[[menu.main]]
-   # name       = "1. Primeros Pasos"
-   # url        = "/admisiones/empieza"
-   # weight     = 2
-   # parent     = "section.portfolio"
+[[menu.main]]
+    name       = "1. Primeros Pasos"
+    url        = "/admisiones/empieza"
+    weight     = 2
+    parent     = "section.portfolio"
 
-#[[menu.main]]
-#    name       = "2. Inscripción"
-#    url        = "/admisiones/admision"
-#    weight     = 3
-#    parent     = "section.portfolio"
+[[menu.main]]
+    name       = "2. Inscripción"
+    url        = "/admisiones/admision"
+    weight     = 3
+    parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "Información"
@@ -113,17 +113,17 @@ pluralizelisttitles = false
     post       = 2
 
 
-#[[menu.main]]
-#    name       = "Calendario"
-#    url        = "/calendar"
-#    weight     = 1
-#    parent     = "section.about"
+[[menu.main]]
+    name       = "Calendario"
+    url        = "/calendar"
+    weight     = 1
+    parent     = "section.about"
 
-# [[menu.main]]
-#    name       = "Costos"
-#    url        = "/posts/costos"
-#    weight     = 2
-#    parent     = "section.about"
+ [[menu.main]]
+    name       = "Costos"
+    url        = "/posts/costos"
+    weight     = 2
+    parent     = "section.about"
 
 [[menu.main]]
     name       = "Nosotros"
@@ -138,7 +138,7 @@ pluralizelisttitles = false
     parent     = "menu.allpages"
 
 [[menu.main]]
-    name       = "Doctrina"
+    name       = "Posición Doctrinal"
     url        = "/nosotros/"
     weight     = 2
     parent     = "menu.allpages"
@@ -173,7 +173,7 @@ pluralizelisttitles = false
 [[menu.topbar]]
     weight = 1
     name = "Phone"
-    url = "tel: +591 (6) 4908144"
+    url = "tel: +591 (7) 172-8180"
     pre = "<i class='fas fa-2x fa-phone'></i>"
 
 #[[menu.topbar]]
@@ -289,8 +289,8 @@ CanonifyURLs = true
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contactarnos via WhatsApp +591 (6) 4908144 or info@cc3d.org</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+591 (6) 4908144" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Contactarnos via WhatsApp +591 (7) 172-8180 or info@cc3d.org</p>
+      <p class="hidden-md hidden-lg"><a href="tel:+591 (7) 172-8180" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:info@cc3d.org" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
       """
