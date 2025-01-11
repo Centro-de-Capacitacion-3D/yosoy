@@ -1,6 +1,6 @@
 ---
 title: "Calendar"
-date: 2025-01-11T15:11:42-04:00
+date: 2025-01-11
 draft: false
 layout: "calendar"
 type: "posts"
